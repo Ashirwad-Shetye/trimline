@@ -23,6 +23,23 @@ It is built for readers and researchers who want cleaner articles, docs, blogs, 
 - Export and import local rules as JSON.
 - Store rules and settings locally in `chrome.storage.local`.
 
+## Latest builds
+
+Trimline is not on the Chrome Web Store yet. Until then, download the latest ZIP build from GitHub Releases:
+
+[Download the latest Trimline build](https://github.com/Ashirwad-Shetye/trimline/releases/latest)
+
+To install a ZIP build:
+
+1. Download `trimline-vX.Y.Z.zip` from the latest release.
+2. Unzip it.
+3. Open `chrome://extensions`.
+4. Enable **Developer mode**.
+5. Click **Load unpacked**.
+6. Select the unzipped Trimline folder.
+
+Web Store installation is planned for a future release.
+
 ## Install from source
 
 ```bash
@@ -72,6 +89,7 @@ Useful scripts:
 
 - `npm run icons`: generate Chrome PNG icons from `assets/brand/trimline-logo.svg`.
 - `npm run build`: verify package/manifest versions, type-check, and build the extension.
+- `npm run package`: build and create a release ZIP in `releases/`.
 - `npm run dev`: run Vite during UI development.
 
 ## Project structure
